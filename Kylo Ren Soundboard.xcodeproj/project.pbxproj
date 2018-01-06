@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6458D22A1BD3D81700CF8C48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458D2291BD3D81700CF8C48 /* main.m */; };
+		6458D22D1BD3D81700CF8C48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458D22C1BD3D81700CF8C48 /* AppDelegate.m */; };
+		6458D2301BD3D81700CF8C48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458D22F1BD3D81700CF8C48 /* ViewController.m */; };
+		6458D2331BD3D81700CF8C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6458D2311BD3D81700CF8C48 /* Main.storyboard */; };
+		6458D2351BD3D81700CF8C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6458D2341BD3D81700CF8C48 /* Assets.xcassets */; };
+		6458D2381BD3D81700CF8C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6458D2361BD3D81700CF8C48 /* LaunchScreen.storyboard */; };
+		6458D2401BD3D98A00CF8C48 /* awakening.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6458D23F1BD3D98A00CF8C48 /* awakening.wav */; };
+		6458D2421BD3D9D600CF8C48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6458D2411BD3D9D600CF8C48 /* Images.xcassets */; };
+		6458D2461BD3DAE100CF8C48 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6458D2451BD3DAE100CF8C48 /* AudioToolbox.framework */; };
+		6458D2481BD45E9F00CF8C48 /* feltit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6458D2471BD45E9F00CF8C48 /* feltit.wav */; };
+		6458D24C1BD462BC00CF8C48 /* and_the_light.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6458D24B1BD462BC00CF8C48 /* and_the_light.wav */; };
+		6458D24E1BD465C800CF8C48 /* dark_side_v2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6458D24D1BD465C800CF8C48 /* dark_side_v2.wav */; };
+		6458D2501BD7EFC900CF8C48 /* kylo_ren.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6458D24F1BD7EFC900CF8C48 /* kylo_ren.jpg */; };
+		6458D2561BD8674200CF8C48 /* nothing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6458D2551BD8674200CF8C48 /* nothing.wav */; };
+		6458D2581BD8676B00CF8C48 /* wilhelm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6458D2571BD8676B00CF8C48 /* wilhelm.mp3 */; };
+		6458D25C1BD86A3D00CF8C48 /* finish3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6458D25B1BD86A3D00CF8C48 /* finish3.wav */; };
+		6458D25E1BD86B6100CF8C48 /* started.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6458D25D1BD86B6100CF8C48 /* started.wav */; };
+		6458D2621BD95FF300CF8C48 /* firstorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6458D2611BD95FF300CF8C48 /* firstorder.png */; };
+		64E2F00A1BE55C16003C52DC /* chrome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64E2F0061BE55C16003C52DC /* chrome.wav */; };
+		64E2F00C1BE55C16003C52DC /* fear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64E2F0081BE55C16003C52DC /* fear.wav */; };
+		64E2F00D1BE55C16003C52DC /* record_scratch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64E2F0091BE55C16003C52DC /* record_scratch.wav */; };
+		64E2F0171BE56E2A003C52DC /* maul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64E2F0161BE56E2A003C52DC /* maul.jpg */; };
+		64E2F0191BE6C642003C52DC /* vader_v2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64E2F0181BE6C642003C52DC /* vader_v2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6458D2251BD3D81700CF8C48 /* Kylo Ren Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kylo Ren Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6458D2291BD3D81700CF8C48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6458D22B1BD3D81700CF8C48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6458D22C1BD3D81700CF8C48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6458D22E1BD3D81700CF8C48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6458D22F1BD3D81700CF8C48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6458D2321BD3D81700CF8C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6458D2341BD3D81700CF8C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6458D2371BD3D81700CF8C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6458D2391BD3D81700CF8C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6458D23F1BD3D98A00CF8C48 /* awakening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = awakening.wav; sourceTree = "<group>"; };
+		6458D2411BD3D9D600CF8C48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6458D2451BD3DAE100CF8C48 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6458D2471BD45E9F00CF8C48 /* feltit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = feltit.wav; sourceTree = "<group>"; };
+		6458D24B1BD462BC00CF8C48 /* and_the_light.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = and_the_light.wav; sourceTree = "<group>"; };
+		6458D24D1BD465C800CF8C48 /* dark_side_v2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dark_side_v2.wav; sourceTree = "<group>"; };
+		6458D24F1BD7EFC900CF8C48 /* kylo_ren.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kylo_ren.jpg; sourceTree = "<group>"; };
+		6458D2551BD8674200CF8C48 /* nothing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nothing.wav; sourceTree = "<group>"; };
+		6458D2571BD8676B00CF8C48 /* wilhelm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wilhelm.mp3; sourceTree = "<group>"; };
+		6458D25B1BD86A3D00CF8C48 /* finish3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = finish3.wav; sourceTree = "<group>"; };
+		6458D25D1BD86B6100CF8C48 /* started.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = started.wav; sourceTree = "<group>"; };
+		6458D2611BD95FF300CF8C48 /* firstorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstorder.png; sourceTree = "<group>"; };
+		64E2F0061BE55C16003C52DC /* chrome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chrome.wav; sourceTree = "<group>"; };
+		64E2F0081BE55C16003C52DC /* fear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fear.wav; sourceTree = "<group>"; };
+		64E2F0091BE55C16003C52DC /* record_scratch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = record_scratch.wav; sourceTree = "<group>"; };
+		64E2F0161BE56E2A003C52DC /* maul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maul.jpg; sourceTree = "<group>"; };
+		64E2F0181BE6C642003C52DC /* vader_v2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vader_v2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6458D2221BD3D81700CF8C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458D2461BD3DAE100CF8C48 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6458D21C1BD3D81700CF8C48 = {
+			isa = PBXGroup;
+			children = (
+				6458D2451BD3DAE100CF8C48 /* AudioToolbox.framework */,
+				6458D2271BD3D81700CF8C48 /* Star Wars Kylo Ren Soundboard */,
+				6458D2261BD3D81700CF8C48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6458D2261BD3D81700CF8C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6458D2251BD3D81700CF8C48 /* Kylo Ren Soundboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6458D2271BD3D81700CF8C48 /* Star Wars Kylo Ren Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				6458D22B1BD3D81700CF8C48 /* AppDelegate.h */,
+				6458D22C1BD3D81700CF8C48 /* AppDelegate.m */,
+				6458D22E1BD3D81700CF8C48 /* ViewController.h */,
+				6458D22F1BD3D81700CF8C48 /* ViewController.m */,
+				6458D2311BD3D81700CF8C48 /* Main.storyboard */,
+				6458D2341BD3D81700CF8C48 /* Assets.xcassets */,
+				6458D2361BD3D81700CF8C48 /* LaunchScreen.storyboard */,
+				6458D2391BD3D81700CF8C48 /* Info.plist */,
+				6458D2411BD3D9D600CF8C48 /* Images.xcassets */,
+				6458D2281BD3D81700CF8C48 /* Supporting Files */,
+			);
+			path = "Star Wars Kylo Ren Soundboard";
+			sourceTree = "<group>";
+		};
+		6458D2281BD3D81700CF8C48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E2F0181BE6C642003C52DC /* vader_v2.jpg */,
+				64E2F0161BE56E2A003C52DC /* maul.jpg */,
+				64E2F0061BE55C16003C52DC /* chrome.wav */,
+				64E2F0081BE55C16003C52DC /* fear.wav */,
+				64E2F0091BE55C16003C52DC /* record_scratch.wav */,
+				6458D2611BD95FF300CF8C48 /* firstorder.png */,
+				6458D25D1BD86B6100CF8C48 /* started.wav */,
+				6458D25B1BD86A3D00CF8C48 /* finish3.wav */,
+				6458D2571BD8676B00CF8C48 /* wilhelm.mp3 */,
+				6458D2551BD8674200CF8C48 /* nothing.wav */,
+				6458D24F1BD7EFC900CF8C48 /* kylo_ren.jpg */,
+				6458D24D1BD465C800CF8C48 /* dark_side_v2.wav */,
+				6458D24B1BD462BC00CF8C48 /* and_the_light.wav */,
+				6458D2471BD45E9F00CF8C48 /* feltit.wav */,
+				6458D23F1BD3D98A00CF8C48 /* awakening.wav */,
+				6458D2291BD3D81700CF8C48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6458D2241BD3D81700CF8C48 /* Kylo Ren Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458D23C1BD3D81700CF8C48 /* Build configuration list for PBXNativeTarget "Kylo Ren Soundboard" */;
+			buildPhases = (
+				6458D2211BD3D81700CF8C48 /* Sources */,
+				6458D2221BD3D81700CF8C48 /* Frameworks */,
+				6458D2231BD3D81700CF8C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kylo Ren Soundboard";
+			productName = "Star Wars Kylo Ren Soundboard";
+			productReference = 6458D2251BD3D81700CF8C48 /* Kylo Ren Soundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6458D21D1BD3D81700CF8C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Miami Mobile Developers";
+				TargetAttributes = {
+					6458D2241BD3D81700CF8C48 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = URADB33PMV;
+					};
+				};
+			};
+			buildConfigurationList = 6458D2201BD3D81700CF8C48 /* Build configuration list for PBXProject "Kylo Ren Soundboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6458D21C1BD3D81700CF8C48;
+			productRefGroup = 6458D2261BD3D81700CF8C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6458D2241BD3D81700CF8C48 /* Kylo Ren Soundboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6458D2231BD3D81700CF8C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458D25E1BD86B6100CF8C48 /* started.wav in Resources */,
+				6458D2581BD8676B00CF8C48 /* wilhelm.mp3 in Resources */,
+				64E2F00D1BE55C16003C52DC /* record_scratch.wav in Resources */,
+				64E2F00C1BE55C16003C52DC /* fear.wav in Resources */,
+				6458D2481BD45E9F00CF8C48 /* feltit.wav in Resources */,
+				6458D2501BD7EFC900CF8C48 /* kylo_ren.jpg in Resources */,
+				64E2F0171BE56E2A003C52DC /* maul.jpg in Resources */,
+				64E2F00A1BE55C16003C52DC /* chrome.wav in Resources */,
+				6458D24E1BD465C800CF8C48 /* dark_side_v2.wav in Resources */,
+				6458D2381BD3D81700CF8C48 /* LaunchScreen.storyboard in Resources */,
+				6458D2421BD3D9D600CF8C48 /* Images.xcassets in Resources */,
+				6458D2561BD8674200CF8C48 /* nothing.wav in Resources */,
+				6458D25C1BD86A3D00CF8C48 /* finish3.wav in Resources */,
+				64E2F0191BE6C642003C52DC /* vader_v2.jpg in Resources */,
+				6458D2351BD3D81700CF8C48 /* Assets.xcassets in Resources */,
+				6458D2621BD95FF300CF8C48 /* firstorder.png in Resources */,
+				6458D2401BD3D98A00CF8C48 /* awakening.wav in Resources */,
+				6458D2331BD3D81700CF8C48 /* Main.storyboard in Resources */,
+				6458D24C1BD462BC00CF8C48 /* and_the_light.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6458D2211BD3D81700CF8C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458D2301BD3D81700CF8C48 /* ViewController.m in Sources */,
+				6458D22D1BD3D81700CF8C48 /* AppDelegate.m in Sources */,
+				6458D22A1BD3D81700CF8C48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6458D2311BD3D81700CF8C48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6458D2321BD3D81700CF8C48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6458D2361BD3D81700CF8C48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6458D2371BD3D81700CF8C48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6458D23A1BD3D81700CF8C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6458D23B1BD3D81700CF8C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6458D23D1BD3D81700CF8C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = URADB33PMV;
+				INFOPLIST_FILE = "Star Wars Kylo Ren Soundboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greasyhacks.kylorensoundboard;
+				PRODUCT_NAME = "Kylo Ren Soundboard";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6458D23E1BD3D81700CF8C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = URADB33PMV;
+				INFOPLIST_FILE = "Star Wars Kylo Ren Soundboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greasyhacks.kylorensoundboard;
+				PRODUCT_NAME = "Kylo Ren Soundboard";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6458D2201BD3D81700CF8C48 /* Build configuration list for PBXProject "Kylo Ren Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458D23A1BD3D81700CF8C48 /* Debug */,
+				6458D23B1BD3D81700CF8C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6458D23C1BD3D81700CF8C48 /* Build configuration list for PBXNativeTarget "Kylo Ren Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458D23D1BD3D81700CF8C48 /* Debug */,
+				6458D23E1BD3D81700CF8C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6458D21D1BD3D81700CF8C48 /* Project object */;
+}

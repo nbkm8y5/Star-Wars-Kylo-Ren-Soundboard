@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eeM-hz-lrb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Music SoundBoard-->
+        <scene sceneID="I36-Ag-tIR">
+            <objects>
+                <viewController title="Music SoundBoard" id="lAM-hV-JDv" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mSy-V2-8W9"/>
+                        <viewControllerLayoutGuide type="bottom" id="O2J-Tq-9pP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l88-hc-EkG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vader_v2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q3M-xD-wW0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dKs-8s-deL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yr6-s8-gPc">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFZ-7l-pL2">
+                                        <rect key="frame" x="0.0" y="79" width="375" height="79.5"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Cc-cX-b5d">
+                                        <rect key="frame" x="0.0" y="158.5" width="375" height="79"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvt-M5-Whd">
+                                        <rect key="frame" x="0.0" y="237.5" width="375" height="79"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Vader">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PCk-2K-hUi">
+                                        <rect key="frame" x="0.0" y="316.5" width="375" height="79"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DJT-O0-8to">
+                                        <rect key="frame" x="0.0" y="395.5" width="375" height="79.5"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwS-bv-u6v">
+                                        <rect key="frame" x="0.0" y="475" width="375" height="79"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="dKs-8s-deL" secondAttribute="bottom" id="04o-OZ-yCz"/>
+                            <constraint firstItem="dKs-8s-deL" firstAttribute="top" secondItem="mSy-V2-8W9" secondAttribute="bottom" id="9ao-oR-Mw3"/>
+                            <constraint firstAttribute="trailing" secondItem="dKs-8s-deL" secondAttribute="trailing" id="BH6-f0-vbu"/>
+                            <constraint firstItem="Q3M-xD-wW0" firstAttribute="leading" secondItem="l88-hc-EkG" secondAttribute="leading" id="S6T-Rx-ah4"/>
+                            <constraint firstItem="Q3M-xD-wW0" firstAttribute="top" secondItem="mSy-V2-8W9" secondAttribute="bottom" id="ecS-6V-pUY"/>
+                            <constraint firstItem="dKs-8s-deL" firstAttribute="leading" secondItem="l88-hc-EkG" secondAttribute="leading" id="r2X-sk-jSK"/>
+                            <constraint firstItem="O2J-Tq-9pP" firstAttribute="top" secondItem="Q3M-xD-wW0" secondAttribute="bottom" id="vVG-Hd-pzZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Q3M-xD-wW0" secondAttribute="trailing" id="zMm-Gp-17L"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Music" id="XHg-Lf-n2Q">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-20"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m7A-mu-IbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-836" y="1340"/>
+        </scene>
+        <!--Jabba The Hutt Soundboard-->
+        <scene sceneID="N6Y-oL-Z0h">
+            <objects>
+                <viewController title="Jabba The Hutt Soundboard" id="BiV-CS-34h" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jEL-vn-v0r"/>
+                        <viewControllerLayoutGuide type="bottom" id="hmg-bs-utr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0sm-YD-IGt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZIj-6X-ycP" userLabel="Main Stack View">
+                                <rect key="frame" x="10" y="0.0" width="355" height="554"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eQ2-sW-Df7" userLabel="Top Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="178"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpY-7S-Nj6">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="84"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Chrome">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayChromeSound:" destination="BiV-CS-34h" eventType="touchDown" id="Tiy-9T-4C8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak9-bf-J8z">
+                                                <rect key="frame" x="0.0" y="94" width="355" height="84"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Wilhelm">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayWilhelmSound:" destination="BiV-CS-34h" eventType="touchDown" id="yXs-e5-9hA"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maul.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ws5-yr-flm">
+                                        <rect key="frame" x="0.0" y="188" width="355" height="178"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Sw5-Ck-Ok3" userLabel="Bottom Stack View">
+                                        <rect key="frame" x="0.0" y="376" width="355" height="178"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgJ-3W-x3M">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="84"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Record">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayRecordSound:" destination="BiV-CS-34h" eventType="touchDown" id="roP-TX-gzg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CD-ea-AKS">
+                                                <rect key="frame" x="0.0" y="94" width="355" height="84"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Fear">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayFearSound:" destination="BiV-CS-34h" eventType="touchDown" id="Vg8-dF-dp3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Sw5-Ck-Ok3" firstAttribute="top" secondItem="ws5-yr-flm" secondAttribute="bottom" constant="10" id="7sn-uf-iuc"/>
+                                    <constraint firstItem="ws5-yr-flm" firstAttribute="top" secondItem="eQ2-sW-Df7" secondAttribute="bottom" constant="10" id="Ef2-Eh-9Zg"/>
+                                    <constraint firstItem="eQ2-sW-Df7" firstAttribute="leading" secondItem="ZIj-6X-ycP" secondAttribute="leading" id="ErY-kI-U16"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sw5-Ck-Ok3" secondAttribute="trailing" id="Ijn-cB-hdT"/>
+                                    <constraint firstItem="Sw5-Ck-Ok3" firstAttribute="top" secondItem="ws5-yr-flm" secondAttribute="bottom" constant="10" id="Sp8-Fn-P6a"/>
+                                    <constraint firstAttribute="trailing" secondItem="ws5-yr-flm" secondAttribute="trailing" id="VQ6-pE-wAA"/>
+                                    <constraint firstItem="Sw5-Ck-Ok3" firstAttribute="leading" secondItem="ZIj-6X-ycP" secondAttribute="leading" id="Vj3-Z7-EoZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sw5-Ck-Ok3" secondAttribute="bottom" id="ZJu-Ru-sOc"/>
+                                    <constraint firstItem="eQ2-sW-Df7" firstAttribute="top" secondItem="ZIj-6X-ycP" secondAttribute="top" id="dQt-28-dOz"/>
+                                    <constraint firstAttribute="trailing" secondItem="eQ2-sW-Df7" secondAttribute="trailing" id="hYt-UJ-YPI"/>
+                                    <constraint firstItem="ws5-yr-flm" firstAttribute="leading" secondItem="ZIj-6X-ycP" secondAttribute="leading" id="mfW-vz-dK1"/>
+                                    <constraint firstItem="ws5-yr-flm" firstAttribute="top" secondItem="eQ2-sW-Df7" secondAttribute="bottom" constant="10" id="tSr-24-Hok"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZIj-6X-ycP" secondAttribute="trailing" constant="10" id="29Y-Qf-joa"/>
+                            <constraint firstAttribute="bottom" secondItem="ZIj-6X-ycP" secondAttribute="bottom" id="2aZ-fD-j6g"/>
+                            <constraint firstItem="ZIj-6X-ycP" firstAttribute="leading" secondItem="0sm-YD-IGt" secondAttribute="leading" constant="10" id="AiW-GO-Ycb"/>
+                            <constraint firstItem="ZIj-6X-ycP" firstAttribute="top" secondItem="jEL-vn-v0r" secondAttribute="bottom" id="cBN-yv-TQ8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Jabba The Hutt" id="zAd-Ch-myF">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-20"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0bb-UF-11s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="1340"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UvM-pr-AgE">
+            <objects>
+                <tabBarController modalTransitionStyle="crossDissolve" id="eeM-hz-lrb" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="wbm-av-4Vn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.02999346114" green="0.035945391409999999" blue="0.035731849349999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.035945391409999999" green="0.035945391409999999" blue="0.035945391409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="55V-Yl-UOQ"/>
+                        <segue destination="BiV-CS-34h" kind="relationship" relationship="viewControllers" id="CvI-MT-Sid"/>
+                        <segue destination="lAM-hV-JDv" kind="relationship" relationship="viewControllers" id="Fmc-ON-9bU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F8V-Pz-7Pi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-836" y="-79"/>
+        </scene>
+        <!--Kylo Ren Soundboard-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Kylo Ren Soundboard" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qa2-hO-mRM">
+                                <rect key="frame" x="10" y="0.0" width="355" height="554"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yfm-OB-W1m">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="178"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoG-Tb-Jd9">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="37"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="Awakening">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayAwakenSound:" destination="BYZ-38-t0r" eventType="touchDown" id="24F-Kq-QsZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsU-mq-6BB">
+                                                <rect key="frame" x="0.0" y="47" width="355" height="37"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Have you felt it?">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayFeltSound:" destination="BYZ-38-t0r" eventType="touchDown" id="Vql-nu-hrQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUe-bp-MAY">
+                                                <rect key="frame" x="0.0" y="94" width="355" height="37"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="The dark side">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayDarkSound:" destination="BYZ-38-t0r" eventType="touchDown" id="2CL-aU-RRL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zE1-9D-02V">
+                                                <rect key="frame" x="0.0" y="141" width="355" height="37"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="And the light">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayLightSound:" destination="BYZ-38-t0r" eventType="touchDown" id="4zH-Dl-Uu6"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kylo_ren.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KN6-ZN-ffu">
+                                        <rect key="frame" x="0.0" y="188" width="355" height="178"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                        </accessibility>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uf9-qj-PeM">
+                                        <rect key="frame" x="0.0" y="376" width="355" height="178"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zq2-jP-SA1">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="52.5"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Nothing!">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayNothingSound:" destination="BYZ-38-t0r" eventType="touchDown" id="xR7-Z5-qit"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzY-ii-0W3">
+                                                <rect key="frame" x="0.0" y="62.5" width="355" height="53"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="I will finish">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayFinishSound:" destination="BYZ-38-t0r" eventType="touchDown" id="wdG-i7-tF2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBI-mc-mfn">
+                                                <rect key="frame" x="0.0" y="125.5" width="355" height="52.5"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="What you started">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PlayStartedSound:" destination="BYZ-38-t0r" eventType="touchDown" id="LYd-fm-HCg"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uf9-qj-PeM" firstAttribute="top" secondItem="KN6-ZN-ffu" secondAttribute="bottom" constant="10" id="8Yj-aO-3Ff"/>
+                                    <constraint firstAttribute="bottom" secondItem="uf9-qj-PeM" secondAttribute="bottom" id="CzZ-NM-SlQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="uf9-qj-PeM" secondAttribute="trailing" id="RJ2-1t-F8i"/>
+                                    <constraint firstItem="KN6-ZN-ffu" firstAttribute="top" secondItem="Yfm-OB-W1m" secondAttribute="bottom" constant="10" id="RdB-gT-hvk"/>
+                                    <constraint firstItem="KN6-ZN-ffu" firstAttribute="leading" secondItem="Qa2-hO-mRM" secondAttribute="leading" id="Wbh-IE-kXE"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yfm-OB-W1m" secondAttribute="trailing" id="Xln-R1-7Ts"/>
+                                    <constraint firstItem="Yfm-OB-W1m" firstAttribute="leading" secondItem="Qa2-hO-mRM" secondAttribute="leading" id="qDt-zM-DG1"/>
+                                    <constraint firstItem="uf9-qj-PeM" firstAttribute="leading" secondItem="Qa2-hO-mRM" secondAttribute="leading" id="siy-9u-QZB"/>
+                                    <constraint firstItem="Yfm-OB-W1m" firstAttribute="top" secondItem="Qa2-hO-mRM" secondAttribute="top" id="xTq-T4-qKN"/>
+                                    <constraint firstAttribute="trailing" secondItem="KN6-ZN-ffu" secondAttribute="trailing" id="z1v-eD-i8l"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qa2-hO-mRM" secondAttribute="trailing" constant="10" id="Odv-Xz-gy1"/>
+                            <constraint firstItem="Qa2-hO-mRM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Tdk-jf-mXB"/>
+                            <constraint firstAttribute="bottom" secondItem="Qa2-hO-mRM" secondAttribute="bottom" id="V1C-ru-pDe"/>
+                            <constraint firstItem="Qa2-hO-mRM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="xq6-cn-vE6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Kylo Ren" id="q8t-5M-1eS">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-20"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="306" y="-78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kylo_ren.jpg" width="930" height="550"/>
+        <image name="maul.jpg" width="1200" height="729"/>
+        <image name="vader_v2.jpg" width="2250" height="2000"/>
+    </resources>
+</document>
